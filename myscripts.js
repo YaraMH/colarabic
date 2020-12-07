@@ -203,8 +203,9 @@ var w = window.innerWidth;
 var x = document.getElementById("backButton");
 var y = document.getElementById("logo");
 if(w<900){
- x.style.marginRight="50px";
- //y.style.position="static";
+ x.style.marginRight="160px";
+ x.style.marginTop="50px";
+ x.style.position="static";
  y.style.zIndex = "-1";
 }
 else {
